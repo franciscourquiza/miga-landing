@@ -2,8 +2,7 @@ import ExperienceSection from './components/ExperienceSection'
 import Navbar from './components/Navbar'
 import PhilosophySection from './components/PhiloshopySection'
 import CinematicSection from './components/CinematicSection'
-import WhatsAppButton from './components/WhatsAppButton'
-
+import WhatsAppButton from './components/WhatsappButton'
 const products = [
   {
     number: '01',
