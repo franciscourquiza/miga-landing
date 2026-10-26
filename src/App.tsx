@@ -1,6 +1,8 @@
 import ExperienceSection from './components/ExperienceSection'
 import Navbar from './components/Navbar'
 import PhilosophySection from './components/PhiloshopySection'
+import CinematicSection from './components/CinematicSection'
+import WhatsAppButton from './components/WhatsAppButton'
 
 const products = [
   {
@@ -136,6 +138,7 @@ function App() {
           <span>Hecho con amor</span>
         </div>
       </div>
+      <CinematicSection />
 
       {/* Menú */}
       <section id="menu" className="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28">
@@ -325,6 +328,7 @@ function App() {
             Volver arriba ↑
           </a>
         </div>
+        <WhatsAppButton />
       </footer>
     </main>
   )
